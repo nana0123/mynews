@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>MyNews</title>
+        <title>プロフィール新規登録</title>
     </head>
     <body>
-        <h1>課題１０edit</h1>
+        <h1>プロフィール新規登録</h1>
     </body>
 </html>
