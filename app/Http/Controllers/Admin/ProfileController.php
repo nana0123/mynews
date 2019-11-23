@@ -28,3 +28,7 @@ class NewsController extends Controller
       return redirect('admin/profile/create');
   }  
 }
+  {
+      // admin/profile/editにリダイレクトする
+      return redirect('admin/profile/edit');
+  }  
