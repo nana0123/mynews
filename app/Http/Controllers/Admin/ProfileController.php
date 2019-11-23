@@ -5,17 +5,12 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class ProfileController extends Controller
+class NewsController extends Controller
 {
-    public function add()
-    {
-        return view('admin.profile.create');
-    }
-
-    public function create()
-    {
-        return redirect('admin/profile/create');
-    }
+   public function add()
+  {
+      return view('admin.profile.create');
+  }
 
     public function edit()
     {
@@ -26,5 +21,10 @@ class ProfileController extends Controller
     {
         return redirect('admin/profile/edit');
     }
+ // 以下を追記
+  public function create(Request $request)
+  {
+      // admin/profile/createにリダイレクトする
+      return redirect('admin/profile/create');
+  }  
 }
-
