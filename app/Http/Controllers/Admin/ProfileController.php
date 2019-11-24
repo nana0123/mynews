@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class NewsController extends Controller
+class ProfileController extends Controller
 {
    public function add()
   {
@@ -28,7 +28,3 @@ class NewsController extends Controller
       return redirect('admin/profile/create');
   }  
 }
-  {
-      // admin/profile/editにリダイレクトする
-      return redirect('admin/profile/edit');
-  }  
